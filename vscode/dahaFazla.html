@@ -7,20 +7,32 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#0097A7">
         <a class="navbar-brand" href="webTek.html" style="color: white;">ANASAYFA</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="whoami.html" style="color: white;">Ekibimiz</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="images.html" style="color: white;">Galeri</a>
-            </li>
-          </ul>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="whoami.html" style="color: white;">Ekibimiz</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                        Galeri
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="ofis.html">Ofis Galerisi</a>
+                        <a class="dropdown-item" href="team.html">Ekip Arkadaşlarımız</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="dahaFazla.html" style="color: white;"> Daha Fazlası</a>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
 
     <div class="container">
         <div class="bg-info text-white text-center py-2 mt-5">
